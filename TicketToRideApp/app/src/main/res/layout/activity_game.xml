@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <Button
+        android:id="@+id/player1"
+        style="?android:attr/buttonStyleInset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="35dp"
+        android:text="Player 1" />
+
+    <Button
+        android:id="@+id/player2"
+        style="?android:attr/buttonStyleInset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="229dp"
+        android:layout_marginTop="32dp"
+        android:text="Player 2" />
+
+    <Button
+        android:id="@+id/player3"
+        style="?android:attr/buttonStyleInset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="144dp"
+        android:text="Player 3" />
+
+    <Button
+        android:id="@+id/player4"
+        style="?android:attr/buttonStyleInset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="144dp"
+        android:text="Player 4" />
+
+
+</RelativeLayout>

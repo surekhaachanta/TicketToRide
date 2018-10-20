@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Player1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium"
+        android:text="Player 1"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Score"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <TextView
+        android:id="@+id/player1_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:fontFamily="sans-serif-light"
+        android:text="0"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="56sp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <Button
+        android:id="@+id/player1_one_score"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="276dp"
+        android:background="#fd0095ff"
+        android:onClick="player1OneScore"
+        android:text="+1 Route"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <Button
+        android:id="@+id/player1_two_score"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginBottom="277dp"
+        android:background="#fd0095ff"
+        android:onClick="player1TwoScore"
+        android:text="+2 Route"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <Button
+        android:id="@+id/player1_three_score"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="184dp"
+        android:background="#fd0095ff"
+        android:onClick="player1ThreeScore"
+        android:text="+3 Route"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <Button
+        android:id="@+id/player1_four_score"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="209dp"
+        android:layout_marginBottom="187dp"
+        android:background="#fd0095ff"
+        android:onClick="player1FourScore"
+        android:text="+4 Route"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <Button
+        android:id="@+id/player1_five_score"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="95dp"
+        android:background="#fd0095ff"
+        android:onClick="player1FiveScore"
+        android:text="+5 Route"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <Button
+        android:id="@+id/player1_Six_score"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginBottom="97dp"
+        android:background="#fd0095ff"
+        android:onClick="player1SixScore"
+        android:text="+6 Route"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="27dp"
+        android:layout_toEndOf="@+id/player1_five_score"
+        android:background="#ffd3d3d3"
+        android:onClick="resetButton"
+        android:text="Reset"
+        android:textSize="14sp" />
+
+</RelativeLayout>
